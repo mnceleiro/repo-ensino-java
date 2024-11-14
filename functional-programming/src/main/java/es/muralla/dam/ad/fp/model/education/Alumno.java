@@ -1,7 +1,6 @@
-package org.functional.programming.model.education;
+package es.muralla.dam.ad.fp.model.education;
 
 import java.time.LocalDate;
-import java.util.List;
 
 public record Alumno (
 	String dni,
@@ -11,5 +10,8 @@ public record Alumno (
     LocalDate fechaNacimiento,
     Direccion direccion
 ) {
-    	
+    
+	public String nombreCompleto() {
+		return String.format("%s %s %s", nombre, apellido1, apellido2);
+	}
 }

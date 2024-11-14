@@ -1,10 +1,10 @@
-package org.functional.programming.model.education.mockdata;
+package es.muralla.dam.ad.fp.model.education.mockdata;
 
 import java.time.LocalDate;
 import java.util.List;
 
-import org.functional.programming.model.education.Alumno;
-import org.functional.programming.model.education.Direccion;
+import es.muralla.dam.ad.fp.model.education.Alumno;
+import es.muralla.dam.ad.fp.model.education.Direccion;
 
 public class Alumnos {
 

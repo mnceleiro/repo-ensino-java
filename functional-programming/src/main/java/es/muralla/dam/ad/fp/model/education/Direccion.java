@@ -1,4 +1,4 @@
-package org.functional.programming.model.education;
+package es.muralla.dam.ad.fp.model.education;
 
 public record Direccion (
 	String calle,
