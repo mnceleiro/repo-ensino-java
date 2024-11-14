@@ -1,0 +1,30 @@
+# Carpeta de configuración de Eclipse
+**/.settings/
+
+# Carpetas de compilación y salida
+**/bin/
+**/target/
+
+# Archivos de configuración de Eclipse
+**/.classpath
+**/.project
+
+# Archivos y carpetas relacionados con Maven
+**/.mvn/
+**/mvnw
+**/mvnw.cmd
+
+# Excluir archivos de logs y temporales
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# Archivos de compilación de Java
+*.class
+
+# Archivos de paquetes y librerías compiladas
+*.jar
+*.war
+*.ear
