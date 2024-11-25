@@ -5,9 +5,9 @@ import java.time.Period;
 import java.util.List;
 import java.util.Optional;
 
-import es.muralla.dam.ad.fp.model.education.Alumno;
-import es.muralla.dam.ad.fp.model.education.Direccion;
-import es.muralla.dam.ad.fp.model.education.mockdata.Alumnos;
+import es.muralla.dam.ad.datamodels.education.Alumno;
+import es.muralla.dam.ad.datamodels.education.Direccion;
+import es.muralla.dam.ad.datamodels.education.mockdata.Alumnos;
 
 public class MainEducation {
 	public static void main(String[] args) {

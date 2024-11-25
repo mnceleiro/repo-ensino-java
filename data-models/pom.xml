@@ -3,17 +3,16 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-
 	<parent>
 		<artifactId>apuntes-ejercicios-ad</artifactId>
 		<groupId>es.muralla.dam.ad</groupId>
 		<version>0.0.1</version>
 	</parent>
 
-	<groupId>es.muralla.dam.ad.fp</groupId>
-	<artifactId>functional-programming</artifactId>
+	<groupId>es.muralla.dam.ad.datamodels</groupId>
+	<artifactId>data-models</artifactId>
 
-	<name>functional-programming</name>
+	<name>data-models</name>
 	<!-- FIXME change it to the project's website -->
 	<url>http://www.example.com</url>
 
@@ -27,7 +26,7 @@
 			<dependency>
 				<groupId>org.junit</groupId>
 				<artifactId>junit-bom</artifactId>
-				<version>5.11.3</version>
+				<version>5.11.0</version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
@@ -45,12 +44,6 @@
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter-params</artifactId>
 			<scope>test</scope>
-		</dependency>
-		
-		<dependency>
-			<groupId>es.muralla.dam.ad.datamodels</groupId>
-			<artifactId>data-models</artifactId>
-			<version>0.0.1</version>
 		</dependency>
 	</dependencies>
 
